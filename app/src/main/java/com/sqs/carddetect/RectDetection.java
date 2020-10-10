@@ -327,7 +327,7 @@ public class RectDetection extends AppCompatActivity implements CameraBridgeView
                 Collections.sort(cos);
 
                 double mincos = cos.get(0);
-                
+
                 double maxcos = cos.get(cos.size() - 1);
 
                 if (numberVertices == 4 && mincos >= -0.1 && maxcos <= 0.3) {
